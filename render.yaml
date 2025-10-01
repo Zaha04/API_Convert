@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: avif-converter
+    env: docker
+    plan: free
+    autoDeploy: true
